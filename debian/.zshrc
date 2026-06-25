@@ -30,16 +30,13 @@ ENABLE_CORRECTION="true"
 # Custom plugins may be added to $ZSH_CUSTOM/plugins/
 # Example format: plugins=(rails git textmate ruby lighthouse)
 # Add wisely, as too many plugins slow down shell startup.
-plugins=(git aws kubectl zsh-autosuggestions)
+plugins=(git aws kubectl zsh-autosuggestions zsh-autocomplete)
 SHOW_AWS_PROMPT=true
 AWS_PROFILE_STATE_ENABLED=true
 
 source $ZSH/oh-my-zsh.sh
-source $(brew --prefix)/share/zsh-autocomplete/zsh-autocomplete.plugin.zsh
 
 # Eval and source specific tools
-eval $(/opt/homebrew/bin/brew shellenv)
-source /opt/homebrew/opt/spaceship/spaceship.zsh
 eval "$(fzf --zsh)"
 
 # Tooling aliases
