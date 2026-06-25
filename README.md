@@ -8,10 +8,30 @@ ZSH tooling
 https://github.com/marlonrichert/zsh-autocomplete
 https://github.com/zsh-users/zsh-autosuggestions
 
-#### Terminal installations
+### Terminal installations
 Starship
 Spaceship
 Tmux
 Fzf for reverse search
 Iterm2
 Oh my zsh
+
+### Shared usage
+
+```shell
+ln -sf /Users/benw/git/configs/shared/.gitconfig ~/.gitconfig
+ln -sf /Users/benw/git/configs/shared/.tmux.conf ~/.tmux.conf
+ln -sf /Users/benw/git/configs/shared/.vimrc ~/.vimrc
+```
+
+### macOS usage
+
+```shell
+ln -sf /Users/benw/git/configs/macOS/.zshrc ~/.zshrc
+```
+
+### debian usage
+
+```shell
+ln -sf /Users/benw/git/configs/debian/.zshrc ~/.zshrc
+```
