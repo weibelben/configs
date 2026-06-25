@@ -1,0 +1,6 @@
+[alias]
+        rev = "!f(){ BRANCH=\"$(git rev-parse --abbrev-ref HEAD)\"; git push -u origin \"$BRANCH\":user/$USER/\"$BRANCH\" --force; }; f"
+[alias]
+        co = "checkout"
+[alias]
+        rb = "rebase -i main"
