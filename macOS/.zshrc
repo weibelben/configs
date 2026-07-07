@@ -63,3 +63,6 @@ bindkey "^[[H" beginning-of-line
 
 # autocomplete accept
 bindkey '  ' autosuggest-accept
+
+# exclude semicolon
+zstyle ':autocomplete:*' add-semicolon no
