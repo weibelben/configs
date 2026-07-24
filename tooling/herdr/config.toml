@@ -174,7 +174,9 @@ mouse_capture = true
 
 # Automatically copy text selected by mouse drag.
 # Set false to keep drag selection visible without copying; double-click still copies a word.
-copy_on_select = false
+# TODO turn to false when this bug is fixed
+# https://github.com/ogulcancelik/herdr/issues/1471
+copy_on_select = true
 
 # Host cursor policy: "auto", "native", or "drawn".
 # "auto" draws Herdr's own cursor on native Windows builds and WSL to avoid ConPTY cursor flicker, and uses the native terminal cursor elsewhere.
