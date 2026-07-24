@@ -27,7 +27,7 @@ ln -sf $CONFIGS_REPO/shared/.gitconfig ~/.gitconfig
 ln -sf $CONFIGS_REPO/shared/.tmux.conf ~/.tmux.conf
 ln -sf $CONFIGS_REPO/shared/.vimrc ~/.vimrc
 ln -sf $CONFIGS_REPO/shared/.zshrc_common ~/.zshrc_common
-ln -sf $CONFIGS_REPO/tooling/herdr/config.toml ~/.config/herdr/config.toml
+ln -sf $CONFIGS_REPO/shared/herdr/config.toml ~/.config/herdr/config.toml
 ```
 
 ### macOS usage
