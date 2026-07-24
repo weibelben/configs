@@ -19,19 +19,25 @@ Oh my zsh
 ### Shared usage
 
 ```shell
-ln -sf /Users/benw/git/configs/shared/.gitconfig ~/.gitconfig
-ln -sf /Users/benw/git/configs/shared/.tmux.conf ~/.tmux.conf
-ln -sf /Users/benw/git/configs/shared/.vimrc ~/.vimrc
+export CONFIGS_REPO=$(git rev-parse --show-toplevel)
+
+mkdir -p ~/.config/herdr
+
+ln -sf $CONFIGS_REPO/shared/.gitconfig ~/.gitconfig
+ln -sf $CONFIGS_REPO/shared/.tmux.conf ~/.tmux.conf
+ln -sf $CONFIGS_REPO/shared/.vimrc ~/.vimrc
+ln -sf $CONFIGS_REPO/shared/.zshrc_common ~/.zshrc_common
+ln -sf $CONFIGS_REPO/tooling/herdr/config.toml ~/.config/herdr/config.toml
 ```
 
 ### macOS usage
 
 ```shell
-ln -sf /Users/benw/git/configs/macOS/.zshrc ~/.zshrc
+ln -sf $CONFIGS_REPO/macOS/.zshrc ~/.zshrc
 ```
 
 ### debian usage
 
 ```shell
-ln -sf /Users/benw/git/configs/debian/.zshrc ~/.zshrc
+ln -sf $CONFIGS_REPO/debian/.zshrc ~/.zshrc
 ```
