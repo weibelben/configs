@@ -36,7 +36,7 @@ ln -sf $CONFIGS_REPO/shared/herdr/config.toml ~/.config/herdr/config.toml
 ln -sf $CONFIGS_REPO/macOS/.zshrc ~/.zshrc
 ```
 
-### debian usage
+### debian usage (assuming ubuntu machine is the remote machine)
 
 ```shell
 ln -sf $CONFIGS_REPO/debian/.zshrc ~/.zshrc
