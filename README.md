@@ -1,4 +1,4 @@
-# configs
+# Configs
 Various git, tmux, vim, and tooling configs. This repo helps bootstrap new machines with proper terminal tools.
 
 Configure option/cmd backspace and forward word jumping in iTerm2 key bindings. 
@@ -9,12 +9,12 @@ https://github.com/marlonrichert/zsh-autocomplete
 https://github.com/zsh-users/zsh-autosuggestions
 
 ### Terminal installations
-Oh my zsh
-Starship
-Spaceship
-Tmux
-Fzf
-Iterm2 (on mac)
+- Oh my zsh
+- Starship
+- Spaceship
+- Tmux
+- Fzf
+- Iterm2 (on mac)
 
 ### Shared usage
 
@@ -30,15 +30,21 @@ ln -sf $CONFIGS_REPO/shared/.zshrc_common ~/.zshrc_common
 ln -sf $CONFIGS_REPO/shared/herdr/config.toml ~/.config/herdr/config.toml
 ```
 
-### macOS usage
+### MacOS usage
 
 ```shell
 ln -sf $CONFIGS_REPO/macOS/.zshrc ~/.zshrc
 ```
 
-### debian usage (assuming ubuntu machine is the remote machine)
+### Debian usage (assuming ubuntu machine is the remote machine)
 
 ```shell
 ln -sf $CONFIGS_REPO/debian/.zshrc ~/.zshrc
 ln -sf $CONFIGS_REPO/debian/.ssh/rc ~/.ssh/rc
 ```
+
+### Optional local config sourcing
+
+If there is configuration you don't want to check in, create a
+~/.zshrc.local file and that will get sourced automatically by
+the common zsh config.
