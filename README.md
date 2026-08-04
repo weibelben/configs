@@ -40,4 +40,5 @@ ln -sf $CONFIGS_REPO/macOS/.zshrc ~/.zshrc
 
 ```shell
 ln -sf $CONFIGS_REPO/debian/.zshrc ~/.zshrc
+ln -sf $CONFIGS_REPO/debian/.ssh/rc ~/.ssh/rc
 ```
