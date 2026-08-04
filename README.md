@@ -9,12 +9,12 @@ https://github.com/marlonrichert/zsh-autocomplete
 https://github.com/zsh-users/zsh-autosuggestions
 
 ### Terminal installations
+Oh my zsh
 Starship
 Spaceship
 Tmux
-Fzf for reverse search
-Iterm2
-Oh my zsh
+Fzf
+Iterm2 (on mac)
 
 ### Shared usage
 

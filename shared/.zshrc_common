@@ -64,3 +64,8 @@ bindkey '  ' autosuggest-accept
 
 # exclude semicolon
 zstyle ':autocomplete:*' add-semicolon no
+
+# Optional local Zsh config
+if [[ -r "$HOME/.zshrc.local" ]]; then
+  source "$HOME/.zshrc.local"
+fi
