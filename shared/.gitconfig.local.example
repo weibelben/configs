@@ -1,0 +1,12 @@
+# Copy this file to ~/.gitconfig.local and fill in your own details.
+# It is included by .gitconfig via [include] and is NOT checked into the repo.
+[user]
+	name = Your Name
+	email = you@example.com
+	signingkey = ssh-rsa AAAA... your-key
+[gpg]
+	format = ssh
+[commit]
+	gpgsign = true
+[pager]
+	diff = false
